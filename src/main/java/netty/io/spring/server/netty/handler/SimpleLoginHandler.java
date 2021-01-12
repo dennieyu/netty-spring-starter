@@ -31,6 +31,7 @@ public class SimpleLoginHandler extends SimpleChannelInboundHandler<String> {
 		user.login(channelRepository, ctx.channel());
 
 		ctx.writeAndFlush("Successfully logged in as " + user.getUsername() + System.lineSeparator());
+		user = null;
 	}
 
 }
