@@ -4,15 +4,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>netty.io.spring.server</groupId>
-	<artifactId>netty-spring-starter</artifactId>
-	<version>1.2.1-RELEASE</version>
-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.1.RELEASE</version>
 	</parent>
+
+	<groupId>netty.io.spring.server</groupId>
+	<artifactId>netty-spring-starter</artifactId>
+	<version>1.2.1-RELEASE</version>
+	<name>netty-spring-starter</name>
+	<description>My Project</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -40,7 +42,7 @@
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
-			<version>4.1.45.Final</version><!--$NO-MVN-MAN-VER$-->
+			<version>4.1.45.Final</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
